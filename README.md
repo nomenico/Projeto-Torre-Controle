@@ -21,21 +21,17 @@ O projeto foi desenvolvido na Firjan Senai Caxias, com base em um documento de r
 O Avião tem 100 de integridade e 20 de energia.
 
 Para se movimentar, basta digitar:
-W (para cima)
-A (para a esquerda)
-S (para baixo)
-D (para a direita)
-
-A seguir uma representação do mapa do jogo:
-- | . . . . A |
-- | . . . . . |
-- | . . . . . |
-- | . . . . . |
-- | O . . . . |
+- W (para cima)
+- A (para a esquerda)
+- S (para baixo)
+- D (para a direita)
 
 O Avião começa no canto inferior esquerdo no mapa, representado por "O".
+
 A cada movimento, voce gasta 2 de energia e a nova posição do Avião é registrada no mapa.
+
 É possível movimentar pelas diagonais, porém o consumo de energia é dobrado.
+
 Existe a possibilidade de encontrar obstáculos em certas posições pré-definidas do mapa. Cada um consome 25 de integridade do Avião. Tente evitá-los o máximo possível!
 
 Você vence o jogo após o Avião chegar no Aeroporto, localizado no canto superior direito, representado por "A".
